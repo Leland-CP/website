@@ -9,7 +9,7 @@
         We are a community of passionate students digging deeper into computer science and algorithms through competition.
     </p>
     <div class="flex space-x-4">
-        <button id="learn" class="px-8 py-3 bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-700">
+        <button id="learn" class="px-8 py-3 bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-700" onclick="window.location.href='/join';">
             Join Us
         </button>
         <button class="px-8 py-3 bg-gray-300 rounded-lg shadow-md hover:bg-gray-400" onclick="window.location.href='#below';">
