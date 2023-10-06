@@ -22,8 +22,14 @@
     }
 
     function stopwatch() {
+        if (!state) return;
         requestAnimationFrame(stopwatch);
         timing = (Date.now() - start) / 1000;
+    }
+
+    function getTime() {
+        state = false;
+        return timing;
     }
 
     onMount(stopwatch);
@@ -40,5 +46,6 @@
 {:else}
     <div class="w-100% h-screen p-8">
         <h1 class="text-3xl">Win!</h1>
+        <p>Final time: {timing}</p>
     </div>
 {/if}
