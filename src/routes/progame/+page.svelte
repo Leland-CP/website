@@ -11,8 +11,8 @@
     let timing = 0;
 
     function handleMove(event) {
-        m.x = event.clientX;
-        m.y = event.clientY;
+        m.x = Math.round(event.clientX);
+        m.y = Math.round(event.clientY);
 
         if (m.x === targetX && m.y === targetY) {
             state = false;
