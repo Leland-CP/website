@@ -22,12 +22,18 @@ devDependencies:
   '@sveltejs/kit':
     specifier: ^1.20.4
     version: 1.25.1(svelte@4.2.1)(vite@4.4.9)
+  reveal.js:
+    specifier: ^4.6.1
+    version: 4.6.1
   svelte:
     specifier: ^4.0.5
     version: 4.2.1
   svelte-check:
     specifier: ^3.4.3
     version: 3.5.2(postcss@8.4.31)(svelte@4.2.1)
+  svelte-reveal.js:
+    specifier: ^0.0.10
+    version: 0.0.10
   tslib:
     specifier: ^2.4.1
     version: 2.6.2
@@ -1052,6 +1058,11 @@ packages:
     resolution: {integrity: sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==}
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
 
+  /reveal.js@4.6.1:
+    resolution: {integrity: sha512-1CW0auaXNPmwmvQ7TwpszwVxMi2Xr5cTS3J3EBC/HHgbPF32Dn7aiu/LKWDOGjMbaDwKQiGmfqcoGQ74HUHCMw==}
+    engines: {node: '>=10.0.0'}
+    dev: true
+
   /rimraf@2.7.1:
     resolution: {integrity: sha512-uWjbaKIK3T1OSVptzX7Nl6PvQ3qAGtKEtVRjRuazjfL3Bx5eI409VZSqgND+4UNnmzLVdPj9FqFJNPqBZFve4w==}
     hasBin: true
@@ -1228,6 +1239,12 @@ packages:
       strip-indent: 3.0.0
       svelte: 4.2.1
       typescript: 5.2.2
+    dev: true
+
+  /svelte-reveal.js@0.0.10:
+    resolution: {integrity: sha512-16NRJaiDXcFuu3226PetVpcC0qZyed9aLmC9NS6GCCOoMixortvmyhVPQI9bxgaoxVk/1ZXTloe871faqULw0Q==}
+    dependencies:
+      reveal.js: 4.6.1
     dev: true
 
   /svelte@4.2.1:
