@@ -22,6 +22,9 @@ devDependencies:
   '@sveltejs/kit':
     specifier: ^1.20.4
     version: 1.25.1(svelte@4.2.1)(vite@4.4.9)
+  '@types/reveal.js':
+    specifier: ^4.4.5
+    version: 4.4.5
   reveal.js:
     specifier: ^4.6.1
     version: 4.6.1
@@ -387,6 +390,10 @@ packages:
 
   /@types/pug@2.0.7:
     resolution: {integrity: sha512-I469DU0UXNC1aHepwirWhu9YKg5fkxohZD95Ey/5A7lovC+Siu+MCLffva87lnfThaOrw9Vb1DUN5t55oULAAw==}
+    dev: true
+
+  /@types/reveal.js@4.4.5:
+    resolution: {integrity: sha512-2Hf5CemIr6aTSJlal2C2872pBazqYBCESXbOAB+Owqjm8ttCvzBfyp48N+QlAkKKS/cStJ+U+m72LQ1xichyOg==}
     dev: true
 
   /acorn@8.10.0:
